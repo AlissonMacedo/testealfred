@@ -1,0 +1,42 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Alisson Macedo",
+      "email": "alissontecnico@gmail.com",
+      "password": "123123123"
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "name": "Xiaomi M9 Pro",
+      "Preco": "1.200,99"
+    },
+    {
+      "id": 2,
+      "name": "Xiaomi M9 Pro",
+      "Preco": "1.200,99"
+    },
+    {
+      "id": 3,
+      "name": "Xiaomi M9 Pro",
+      "Preco": "1.200,99"
+    },
+    {
+      "id": 4,
+      "name": "Xiaomi M9 Pro",
+      "Preco": "1.200,99"
+    },
+    {
+      "id": 5,
+      "name": "Xiaomi M9 Pro",
+      "Preco": "1.200,99"
+    },
+    {
+      "id": 6,
+      "name": "Xiaomi M9 Pro",
+      "Preco": "1.200,99"
+    }
+  ]
+}
