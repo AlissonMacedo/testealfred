@@ -1,15 +1,16 @@
-import React from "react";
-import { Router } from "react-router-dom";
+import React from 'react';
+import { Router } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { ToastContainer } from 'react-toastify';
 
-import GlobalStyle from "./styles/global";
-import { Provider } from "react-redux";
+import './config/reactotronConfig';
 
-import Routes from "./routes";
+import GlobalStyle from './styles/global';
+import Header from './components/Header';
+import Routes from './routes';
 
-import Header from "./components/Header";
-
-import history from "./services/history";
-import store from "./store";
+import history from './services/history';
+import store from './store';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Header />
         <Routes />
         <GlobalStyle />
+        <ToastContainer autoClose={3000} />
       </Router>
     </Provider>
   );
