@@ -1,12 +1,4 @@
 {
-  "user": [
-    {
-      "id": 1,
-      "name": "Alisson Macedo",
-      "email": "alissontecnico@gmail.com",
-      "password": "123123123"
-    }
-  ],
   "stock": [
     {
       "id": 1,
@@ -38,7 +30,7 @@
       "id": 1,
       "title": "Tênis de Caminhada Leve Confortável",
       "price": 179.9,
-      "image": "https://static.netshoes.com.br/produtos/tenis-adidas-cloudfoam-pure-feminino/26/COL-8467-226/COL-8467-226_detalhe2.jpg?ims=326x"
+      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
     },
     {
       "id": 2,

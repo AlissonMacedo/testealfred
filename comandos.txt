@@ -1,0 +1,40 @@
+*******************
+Módulo 04 (Introdução ao React)
+*******************
+[01: Criando o projeto]
+yarn create react-app nomedaaplicacao
+
+
+
+ [package.json]
+Deletar (
+
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+
+)
+
+
+[02: Configurando a estrutura]
+yarn init -y
+yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli -D
+yarn add react react-dom
+yarn add babel-loader -D
+yarn add webpack-dev-server -D
+
+[03: Nodemon - reiniciar automaticamente o servidor]
+
+
+
+[04. Importando css]
+yarn add style-loader css-loader -D
+
+[05. Importando imagens]
+yarn add file-loader -D
+
+[06. Class components]
+yarn add @babel/plugin-proposal-class-properties -D
+
+[09. Default Props & PropTypes]
+yarn add prop-types
