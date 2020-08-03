@@ -15,7 +15,7 @@ export default createGlobalStyle`
  }
 
  body {
-   background: #191920 url(${background}) no-repeat center top;
+   background: rgb(240, 242, 245);
    -webkit-font-smoothing: antialiased;
  }
 
@@ -24,9 +24,7 @@ export default createGlobalStyle`
  }
 
  #root {
-   max-width: 1020px;
    margin: 0 auto;
-   padding: 0 20px 50px;
  }
 
  button {

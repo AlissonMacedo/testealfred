@@ -28,39 +28,39 @@
   "products": [
     {
       "id": 1,
-      "title": "Tênis de Caminhada Leve Confortável",
-      "price": 179.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+      "title": "Combo BK",
+      "price": 17.99,
+      "image": "https://imagesapt.apontador-assets.com/fit-in/640x480/8f108376c9fd449e82012f7de2535f02/burger-king---quiosque---shopp.png"
     },
     {
       "id": 2,
-      "title": "Tênis VR Caminhada Confortável Detalhes Couro Masculino",
-      "price": 139.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
+      "title": "Combo Familia",
+      "price": 59.9,
+      "image": "https://static-images.ifood.com.br/image/upload//logosgde/c66b2c0f-c7a2-4928-8bbd-64a0499589d0/201907201811_AZin_.jpeg"
     },
     {
       "id": 3,
-      "title": "Tênis Adidas Duramo Lite 2.0",
-      "price": 219.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
+      "title": "Combo Viva Mais",
+      "price": 9.9,
+      "image": "https://www.tritonboats.com.br/wp-content/uploads/2018/09/20150610105145_1642719069.png"
     },
     {
       "id": 5,
-      "title": "Tênis VR Caminhada Confortável Detalhes Couro Masculino",
-      "price": 139.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
+      "title": "Stela Artoris",
+      "price": 6.9,
+      "image": "https://www.stellaartois.com.br/sofisticadamentesimples/img/section-products/skin/garrafa.png"
     },
     {
       "id": 6,
-      "title": "Tênis Adidas Duramo Lite 2.0",
-      "price": 219.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
+      "title": "Regueiro",
+      "price": 39.9,
+      "image": "https://images-americanas.b2w.io/produtos/01/00/img/107097/2/107097247_1GG.jpg"
     },
     {
       "id": 4,
-      "title": "Tênis de Caminhada Leve Confortável",
-      "price": 179.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+      "title": "Buenas Noches",
+      "price": 29.9,
+      "image": "https://lh3.googleusercontent.com/proxy/qPeJPhCO7yGmteVV4ZGbquHGgQUXYlFdr5Ns1CUNz-zpPsHmtZr_RSJSsnQ12Swnhq-ezbbaCXjgWYtx7BGBX_CsZr4F_1jUSaCFowED1j01TVIWyA"
     }
   ]
 }

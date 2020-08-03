@@ -5,7 +5,13 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 0;
+  margin: 0px 0 50px 0;
+  padding: 0 50px;
+  background-color: #fff;
+
+  -webkit-box-shadow: 1px 9px 10px -8px rgba(173, 166, 173, 1);
+  -moz-box-shadow: 1px 9px 10px -8px rgba(173, 166, 173, 1);
+  box-shadow: 1px 9px 10px -8px rgba(173, 166, 173, 1);
 `;
 
 export const Cart = styled(Link)`
@@ -24,12 +30,12 @@ export const Cart = styled(Link)`
 
     strong {
       display: block;
-      color: #fff;
+      color: #555;
     }
 
     span {
       font-size: 12px;
-      color: #999;
+      color: #666;
     }
   }
 `;

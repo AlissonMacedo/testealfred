@@ -1,39 +1,66 @@
-<h1 align="center">bootcamp-ReactJS-RocketShoes</h1>
+<h1 align="center">Ecommerce Alfred</h1>
 
- - This app was developed during the course of RocketSeat using react-native.
+# Descrição.
 
- - This aplication was develop in course of RocketSeat, with porpuse of demonstraing the use of Arctecture Flux.
+- Esta é uma simples aplicação ecommerce, com uma lista de produtos e um carrinho.
 
-## 💻  A simple page
+- Esta aplicação lista produtos de uma api local.
 
- - Listing all products of the api local;
+- Nesta aplicação foram aplicados os novos Hooks do react, juntamente com Redux, saga.
+
+# O que ela faz?
+
+- É possivel adicionar produtos ao carrinho;
+- No carrinho é possivel adicionar mais items do mesmo produto;
+- É possivel atualizar a pagina ou reiniciar o servidor ser perder a lista de compras.
+
+# 💻 Demonstração
+
+- Listando os produtos da api;
 
 <p align="center">
-<img src="./demo/demo1.png" alt="demo1" title="demo1">
+<img src="./demo/demo1.gif" alt="demo1" title="demo1">
 </p>
 
- - Show list of the products in Cart;
+- Listando os produtos adicionados ao carrinho de compras;
 
 <p align="center">
-<img src="./demo/demo2.png" alt="demo2" title="demo2">
+<img src="./demo/demo2.gif" alt="demo2" title="demo2">
 </p>
 
+- Tratativa para erro de conexão e lista vazia de produtos;
 
-## 🎩 How it works
+<p align="center">
+<img src="./demo/demo3.gif" alt="demo3" title="demo3">
+</p>
 
- - Install dependêncies
+## 🎩 Como fazer funcionar
+
+- Clone o projeto com o git clone
+
 ```sh
-yarn
+git clone https://github.com/AlissonMacedo/testealfred.git
 ```
- - Run the API local
+
+- Acesse a pasta local
+- Instale as dependencias com yarn
+
+- Rode este comando para rodar o json server
+
 ```sh
 json-server server.json -p 3333
 ```
- - Run the project
+
+- Em um novo terminal rode este comando para iniciar o servidor
+
 ```sh
 yarn start
 ```
- - The project will run in
+
+- Automaticamente deve-se abrir o navegador com o projeto.
+
+* Caso não ocorra, digite o endereço abaixo no navegador para acessar o projeto.
+
 ```sh
 http://localhost:3000/
 ```

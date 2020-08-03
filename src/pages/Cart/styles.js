@@ -6,6 +6,14 @@ export const Container = styled.div`
   background: #fff;
   border-radius: 4px;
 
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0 20px 50px;
+
+  -webkit-box-shadow: 1px 5px 33px -13px rgba(115, 115, 115, 1);
+  -moz-box-shadow: 1px 5px 33px -13px rgba(115, 115, 115, 1);
+  box-shadow: 1px 5px 33px -13px rgba(115, 115, 115, 1);
+
   footer {
     margin-top: 30px;
     display: flex;
@@ -13,7 +21,7 @@ export const Container = styled.div`
     align-items: center;
 
     button {
-      background: #7159c1;
+      background: rgb(189, 17, 45);
       color: #fff;
       border: 0;
       border-radius: 4px;
@@ -23,7 +31,7 @@ export const Container = styled.div`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.03, '#7159c1')};
+        background: ${darken(0.03, 'rgb(189, 17, 45)')};
       }
     }
   }
@@ -43,7 +51,9 @@ export const ProductTable = styled.table`
   }
 
   img {
+    margin: auto;
     height: 100px;
+    resize: contain;
   }
 
   strong {
@@ -82,12 +92,30 @@ export const Total = styled.div`
   align-items: baseline;
 
   span {
-    color: #999;
+    color: #555;
     font-weight: bold;
   }
 
   strong {
     font-size: 28px;
     margin-left: 5px;
+  }
+`;
+
+export const NoProducts = styled.div`
+  display: flex;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    color: #333;
+    font-size: 24px;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
   }
 `;

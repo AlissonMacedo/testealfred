@@ -7,7 +7,7 @@ import api from '../../services/api';
 
 import * as CartActions from '../../store/modules/cart/actions';
 
-import { ProductList } from './styles';
+import { ProductList, NoProducts } from './styles';
 
 export default function Home() {
   const [products, setProducts] = useState([]);
@@ -41,22 +41,36 @@ export default function Home() {
   }
 
   return (
-    <ProductList>
-      {products.map(product => (
-        <li key={product.id}>
-          <img src={product.image} alt={product.title} />
-          <strong>{product.title}</strong>
-          <span>{product.priceFormatted}</span>
+    <>
+      {products.length === 0 ? (
+        <NoProducts>
+          <span>Houve algo de errado 🙁</span>
+          <img src="https://alfreddelivery.com/static/img/alfred-cel.png" />
+        </NoProducts>
+      ) : (
+        <>
+          <ProductList>
+            {products.map(product => (
+              <li key={product.id}>
+                <img src={product.image} alt={product.title} />
+                <strong>{product.title}</strong>
+                <span>{product.priceFormatted}</span>
 
-          <button type="button" onClick={() => handleAddProduct(product.id)}>
-            <div>
-              <MdAddShoppingCart size={13} color="#FFF" />
-              {amount[product.id] || 0}
-            </div>
-            <span>ADICIONAR AO CARRINHO</span>
-          </button>
-        </li>
-      ))}
-    </ProductList>
+                <button
+                  type="button"
+                  onClick={() => handleAddProduct(product.id)}
+                >
+                  <div>
+                    <MdAddShoppingCart size={13} color="#FFF" />
+                    {amount[product.id] || 0}
+                  </div>
+                  <span>ADICIONAR AO CARRINHO</span>
+                </button>
+              </li>
+            ))}
+          </ProductList>
+        </>
+      )}
+    </>
   );
 }

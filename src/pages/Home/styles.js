@@ -7,6 +7,10 @@ export const ProductList = styled.ul`
   grid-gap: 20px;
   list-style: none;
 
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0 20px 50px;
+
   li {
     display: flex;
     flex-direction: column;
@@ -14,9 +18,14 @@ export const ProductList = styled.ul`
     border-radius: 4px;
     padding: 20px;
 
+    -webkit-box-shadow: 1px 5px 33px -13px rgba(115, 115, 115, 1);
+    -moz-box-shadow: 1px 5px 33px -13px rgba(115, 115, 115, 1);
+    box-shadow: 1px 5px 33px -13px rgba(115, 115, 115, 1);
+
     img {
       align-self: center;
       max-width: 250px;
+      height: 250px;
     }
 
     > strong {
@@ -33,7 +42,7 @@ export const ProductList = styled.ul`
     }
 
     button {
-      background: #7159c1;
+      background: rgb(189, 17, 45);
       color: #fff;
       border: 0;
       border-radius: 4px;
@@ -45,7 +54,7 @@ export const ProductList = styled.ul`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.03, '#7159c1')};
+        background: ${darken(0.03, 'rgb(189, 17, 45)')};
       }
 
       div {
@@ -65,5 +74,36 @@ export const ProductList = styled.ul`
         font-weight: bold;
       }
     }
+  }
+`;
+
+export const NoProducts = styled.div`
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0 20px 50px;
+
+  -webkit-box-shadow: 1px 5px 33px -13px rgba(115, 115, 115, 1);
+  -moz-box-shadow: 1px 5px 33px -13px rgba(115, 115, 115, 1);
+  box-shadow: 1px 5px 33px -13px rgba(115, 115, 115, 1);
+  display: flex;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    color: #333;
+    font-size: 24px;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
   }
 `;
